@@ -1,18 +1,4 @@
 /**
- * 1: 模糊的interface，不需要指名key
- */
-
-interface ErrorContainer {
-  // { email: 'Not a valid email', username: 'Must start with a character!' }
-  [prop: string]: string;
-}
-
-const errorBag: ErrorContainer = {
-  email: "Not a valid email!",
-  username: "Must start with a capital character!",
-};
-
-/**
  * 一般物件根本不需要特別定義 type，自帶type
  */
 
